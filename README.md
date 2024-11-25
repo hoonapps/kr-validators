@@ -22,9 +22,9 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-# kr_validators
+# kr-validators
 
-Custom validation decorators for Korean-specific data such as **resident IDs, phone numbers, business numbers, and postal codes**.  
+Custom validation decorators for Korean-specific data such as **resident IDs, phone numbers, business numbers, card numbers, emails, and postal codes**.  
 This library is designed to work seamlessly with NestJS and `class-validator` for a clean, reusable validation process.
 
 ---

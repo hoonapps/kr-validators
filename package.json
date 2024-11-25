@@ -1,6 +1,6 @@
 {
   "name": "kr-validators",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom validation decorators for Korean data, including resident ID, phone numbers, and postal codes.",
   "author": {
     "name": "hoonapps",
