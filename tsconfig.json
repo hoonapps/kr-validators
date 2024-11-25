@@ -18,8 +18,10 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@app/validation": ["libs/validation/src"],
-      "@app/validation/*": ["libs/validation/src/*"]
+      "@app/validation": ["libs/validation"],
+      "@app/validation/*": ["libs/validation/*"]
     }
-  }
+  },
+  "include": ["libs/validation/src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

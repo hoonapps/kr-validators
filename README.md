@@ -61,7 +61,7 @@ npm install kr-validators
 import {
   IsEmail,
   IsPhoneNumber,
-  IsResidentIdNumber,
+  IsResidentIDNumber,
   IsBusinessNumber,
   IsPostalCode,
 } from 'kr-validators';
@@ -73,7 +73,7 @@ export class CreateUserDto {
   @IsPhoneNumber({ message: '유효하지 않은 전화번호입니다.' })
   phone: string;
 
-  @IsResidentIdNumber({ message: '유효하지 않은 주민등록번호입니다.' })
+  @IsResidentIDNumber({ message: '유효하지 않은 주민등록번호입니다.' })
   residentId: string;
 
   @IsBusinessNumber({ message: '유효하지 않은 사업자등록번호입니다.' })

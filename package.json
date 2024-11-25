@@ -1,6 +1,6 @@
 {
   "name": "kr-validators",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Custom validation decorators for Korean data, including resident ID, phone numbers, and postal codes.",
   "author": {
     "name": "hoonapps",
@@ -8,6 +8,8 @@
     "url": "https://github.com/hoonapps"
   },
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"libs/**/*.ts\"",
